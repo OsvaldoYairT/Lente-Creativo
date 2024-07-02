@@ -772,7 +772,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
         videoGallery.innerHTML = ''; // Limpia el contenedor antes de agregar el nuevo iframe
 
         const div = document.createElement("div");
-        div.className = 'col-xl-8 col-lg-7 col-md-6 col-sm-12'; // Agrega clases de Bootstrap para estilos
+        div.className = 'col-12 mb-4 video-container'; // Agrega clases de Bootstrap para estilos
 
         const iframe = document.createElement("iframe");
         iframe.width = "1140";
