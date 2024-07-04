@@ -35,6 +35,24 @@ document.addEventListener('DOMContentLoaded', (event) => {
     const paragraph14 = document.getElementById('paragraph14');
     const paragraph15 = document.getElementById('paragraph15');
     const paragraph16 = document.getElementById('paragraph16');
+    
+    const page1 = document.getElementById('pages1');
+    const page2 = document.getElementById('pages2');
+    const page3 = document.getElementById('pages3');
+    const page4 = document.getElementById('pages4');
+    const page5 = document.getElementById('pages5');
+    const page6 = document.getElementById('pages6');
+    const page7 = document.getElementById('pages7');
+    const page8 = document.getElementById('pages8');
+    const page9 = document.getElementById('pages9');
+    const page10 = document.getElementById('pages10');
+    const page11 = document.getElementById('pages11');
+    const page12 = document.getElementById('pages12');
+    const page13 = document.getElementById('pages13');
+    const page14 = document.getElementById('pages14');
+    const page15 = document.getElementById('pages15');
+    const page16 = document.getElementById('pages16');
+
 
     paginationLinks.forEach(link => {
         link.addEventListener('click', (event) => {
@@ -113,6 +131,24 @@ document.addEventListener('DOMContentLoaded', (event) => {
                     paragraph14.textContent = 'Texto';
                     paragraph15.textContent = 'Texto';
                     paragraph16.textContent = 'Texto';
+
+                    page1.href="photo-details.html?set=17"
+                    page2.href="photo-details.html?set=18"
+                    page3.href="photo-details.html?set=19"
+                    page4.href="index.html"
+                    page5.href="index.html"
+                    page6.href="index.html"
+                    page7.href="index.html"
+                    page8.href="index.html"
+                    page9.href="index.html"
+                    page10.href="index.html"
+                    page11.href="index.html"
+                    page12.href="index.html"
+                    page13.href="index.html"
+                    page14.href="index.html"
+                    page15.href="index.html"
+                    page16.href="index.html"
+
                     break;
                 case 3:
                     mainImage1.src = "img/logo-creative - copia.png";
@@ -392,6 +428,31 @@ document.addEventListener("DOMContentLoaded", (event) => {
                 "img/dyf/DSCN9750.jpg",
                 // Agrega más rutas de imágenes según sea necesario
             ],
+            '17': 
+            [
+                "img/paisajes/guanajuato/DSCN9889.jpg",
+                "img/paisajes/guanajuato/DSCN9900.jpg",
+                "img/paisajes/guanajuato/DSCN9912.jpg",
+                "img/paisajes/guanajuato/DSCN9916.jpg"
+                // Agrega más rutas de imágenes según sea necesario
+            ],
+            '18': 
+            [
+                "img/paisajes/tepostlan/IMG_20220917_094821179.jpg",
+                "img/paisajes/tepostlan/IMG_20220917_094829790.jpg",
+                "img/paisajes/tepostlan/IMG_20220917_125502902.jpg",
+                "img/paisajes/tepostlan/IMG_20220917_130830557.jpg",
+                "img/paisajes/tepostlan/IMG_20220918_095014594.jpg"
+                // Agrega más rutas de imágenes según sea necesario
+            ],
+            '19': 
+            [
+                "img/paisajes/zacatlan/DSCN0012.jpg",
+                "img/paisajes/zacatlan/DSCN0041.jpg",
+                "img/paisajes/zacatlan/DSCN9940.jpg",
+                "img/paisajes/zacatlan/DSCN9956.jpg"
+                // Agrega más rutas de imágenes según sea necesario
+            ]
     };
     const textSets = 
     {
@@ -415,7 +476,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
             subtitle: '¡Gracias por permitirnos capturar la magia de tus XV años! Nos sentimos honrados de ser parte de este momento tan especial en tu vida. Cada foto es un reflejo de tu belleza y alegría en este día tan memorable. Abajo encontrarás el enlace de descarga para que puedas conservar y compartir estos recuerdos siempre. ¡Esperamos que disfrutes de cada imagen tanto como nosotros disfrutamos capturándolas para ti!',
             downloadButton: 'Descargar',
             dimensions: '4000x5000',
-            format: 'PNG',
+            format: 'JPG',
             considerations: 'Si compartes estas fotos en redes sociales, no olvides etiquetarnos para que otros puedan descubrir nuestra obra. Encuéntranos en Instagram como nature_photos y en YouTube como Nature Walker. ¡Gracias por tu apoyo!',
             socialMedia: 'Redes sociales'
         },
@@ -439,7 +500,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
             subtitle: '¡Gracias por permitirnos ser parte de tu viaje! Hemos disfrutado cada momento capturando instantes únicos y auténticos durante tu sesión de fotos. Cada imagen refleja tu esencia y la conexión que compartimos. Abajo encontrarás el enlace de descarga para que puedas conservar estos recuerdos siempre. ¡Esperamos que disfrutes de cada foto tanto como nosotros disfrutamos creándolas para ti!',
             downloadButton: 'Descargar',
             dimensions: '4000x5000',
-            format: 'PNG',
+            format: 'JPG',
             considerations: 'Si compartes estas fotos en redes sociales, no olvides etiquetarnos para que otros puedan descubrir nuestra obra. Encuéntranos en Instagram como nature_photos y en YouTube como Nature Walker. ¡Gracias por tu apoyo!',
             socialMedia: 'Redes sociales'
         },
@@ -463,16 +524,16 @@ document.addEventListener("DOMContentLoaded", (event) => {
             subtitle: 'Nos sentimos muy afortunados de haber contado con su participación. Su colaboración y energía positiva han sido fundamentales para que podamos practicar y mejorar nuestras habilidades fotográficas. Cada imagen captura no solo su belleza y amor, sino también la conexión y el entusiasmo que trajeron a cada sesión. Abajo encontrarán el enlace de descarga para que puedan conservar estos recuerdos siempre. ¡Esperamos que disfruten de cada imagen tanto como nosotros disfrutamos capturándolas para ustedes!',
             downloadButton: 'Descargar',
             dimensions: '4000x5000',
-            format: 'PNG',
+            format: 'JPG',
             considerations: 'Si compartes estas fotos en redes sociales, no olvides etiquetarnos para que otros puedan descubrir nuestra obra. Encuéntranos en Instagram como nature_photos y en YouTube como Nature Walker. ¡Gracias por tu apoyo!',
             socialMedia: 'Redes sociales'
         },
         '7': 
         {
             heading: 'Sesión de fotos Tryboy',
-            title: 'Ilucionista Magician Walker',
-            subtitle: 'Explora Nuestro Mundo Visual',
-            mainText: '¡Gracias por escogernos para capturar tus momentos especiales! Nos alegra saber que confías en nosotros para inmortalizar tus recuerdos. Estamos seguros de que las fotos que hemos tomado te traerán alegría y te permitirán revivir esos momentos una y otra vez. Abajo te dejamos el enlace de descarga para que puedas guardar estos recuerdos contigo siempre. ¡Esperamos que disfrutes de cada imagen tanto como nosotros disfrutamos capturándolas para ti!',
+            title: 'Un Encuentro Inolvidable',
+            //subtitle: 'Explora Nuestro Mundo Visual',
+            subtitle: 'Agradecemos sinceramente a la persona desconocida que permitió que capturáramos su esencia a través de nuestra lente. Tu apertura y confianza nos dieron la oportunidad de crear algo verdaderamente especial. Abajo te dejamos el enlace de descarga para que puedas guardar estos recuerdos siempre contigo. ¡Esperamos que disfrutes de cada imagen tanto como nosotros disfrutamos capturándolas para ti!',
             downloadButton: 'Download',
             dimensions: '3000x4000',
             format: 'JPG',
@@ -482,21 +543,21 @@ document.addEventListener("DOMContentLoaded", (event) => {
         '8': 
         {
             heading: 'Sesión de fotos Bailarina',
-            title: 'Fotógrafo Nature Walker',
-            subtitle: 'Descubre la Belleza Natural',
-            mainText: 'Nos complace presentar nuestra colección de fotos de la naturaleza. Estas imágenes capturan la esencia y la belleza del mundo natural a través de la lente de nuestro talentoso fotógrafo. Abajo encontrarás el enlace de descarga para que puedas disfrutar de estas fotos en alta resolución. ¡Esperamos que estas imágenes te inspiren y te acerquen un poco más a la naturaleza!',
+            title: 'La Gracia en Movimiento',
+            //subtitle: 'Descubre la Belleza Natural',
+            subtitle: 'Agradecemos profundamente a la talentosa bailarina que nos permitió capturar su arte a través de nuestra lente. Tu elegancia y pasión en cada movimiento nos inspiraron y nos dieron la oportunidad de crear algo verdaderamente mágico. Abajo te dejamos el enlace de descarga para que puedas guardar estos recuerdos siempre contigo. ¡Esperamos que disfrutes de cada imagen tanto como nosotros disfrutamos capturándolas para ti!',
             downloadButton: 'Descargar',
             dimensions: '4000x5000',
-            format: 'PNG',
+            format: 'JPG',
             considerations: 'Si compartes estas fotos en redes sociales, no olvides etiquetarnos para que otros puedan descubrir nuestra obra. Encuéntranos en Instagram como nature_photos y en YouTube como Nature Walker. ¡Gracias por tu apoyo!',
             socialMedia: 'Redes sociales'
         },
         '9': 
         {
             heading: 'Sesión de fotos Boy',
-            title: 'Ilucionista Magician Walker',
-            subtitle: 'Explora Nuestro Mundo Visual',
-            mainText: '¡Gracias por escogernos para capturar tus momentos especiales! Nos alegra saber que confías en nosotros para inmortalizar tus recuerdos. Estamos seguros de que las fotos que hemos tomado te traerán alegría y te permitirán revivir esos momentos una y otra vez. Abajo te dejamos el enlace de descarga para que puedas guardar estos recuerdos contigo siempre. ¡Esperamos que disfrutes de cada imagen tanto como nosotros disfrutamos capturándolas para ti!',
+            title: 'Capturando la Esencia del Momento',
+            //subtitle: 'Explora Nuestro Mundo Visual',
+            subtitle: 'Agradecemos sinceramente a la persona que nos permitió capturar su esencia a través de nuestra lente. Tu disposición y apertura nos brindaron la oportunidad de crear imágenes únicas y significativas. Abajo te dejamos el enlace de descarga para que puedas guardar estos recuerdos siempre contigo. ¡Esperamos que disfrutes de cada imagen tanto como nosotros disfrutamos capturándolas para ti!',
             downloadButton: 'Download',
             dimensions: '3000x4000',
             format: 'JPG',
@@ -506,21 +567,21 @@ document.addEventListener("DOMContentLoaded", (event) => {
         '10': 
         {
             heading: 'Sesión de fotos Boy',
-            title: 'Fotógrafo Nature Walker',
-            subtitle: 'Descubre la Belleza Natural',
-            mainText: 'Nos complace presentar nuestra colección de fotos de la naturaleza. Estas imágenes capturan la esencia y la belleza del mundo natural a través de la lente de nuestro talentoso fotógrafo. Abajo encontrarás el enlace de descarga para que puedas disfrutar de estas fotos en alta resolución. ¡Esperamos que estas imágenes te inspiren y te acerquen un poco más a la naturaleza!',
+            title: 'Capturando la Esencia del Momento',
+            //subtitle: 'Descubre la Belleza Natural',
+            subtitle: 'Agradecemos sinceramente a la persona que nos permitió capturar su esencia a través de nuestra lente. Tu disposición y apertura nos brindaron la oportunidad de crear imágenes únicas y significativas. Abajo te dejamos el enlace de descarga para que puedas guardar estos recuerdos siempre contigo. ¡Esperamos que disfrutes de cada imagen tanto como nosotros disfrutamos capturándolas para ti!',
             downloadButton: 'Descargar',
             dimensions: '4000x5000',
-            format: 'PNG',
+            format: 'JPG',
             considerations: 'Si compartes estas fotos en redes sociales, no olvides etiquetarnos para que otros puedan descubrir nuestra obra. Encuéntranos en Instagram como nature_photos y en YouTube como Nature Walker. ¡Gracias por tu apoyo!',
             socialMedia: 'Redes sociales'
         },
         '11': 
         {
             heading: 'Sesión de fotos Girl',
-            title: 'Ilucionista Magician Walker',
-            subtitle: 'Explora Nuestro Mundo Visual',
-            mainText: '¡Gracias por escogernos para capturar tus momentos especiales! Nos alegra saber que confías en nosotros para inmortalizar tus recuerdos. Estamos seguros de que las fotos que hemos tomado te traerán alegría y te permitirán revivir esos momentos una y otra vez. Abajo te dejamos el enlace de descarga para que puedas guardar estos recuerdos contigo siempre. ¡Esperamos que disfrutes de cada imagen tanto como nosotros disfrutamos capturándolas para ti!',
+            title: 'Celebrando la Amistad en la Universidad',
+            //subtitle: 'Explora Nuestro Mundo Visual',
+            subtitle: '¡Gracias a nuestras maravillosas amigas por brindarnos la oportunidad de capturar su alegría y camaradería en la universidad! Nos sentimos honrados de haber podido inmortalizar estos momentos especiales. Abajo te dejamos el enlace de descarga para que puedas guardar estos recuerdos siempre contigo. ¡Esperamos que disfrutes de cada imagen tanto como nosotros disfrutamos capturándolas para ustedes!',
             downloadButton: 'Download',
             dimensions: '3000x4000',
             format: 'JPG',
@@ -530,21 +591,21 @@ document.addEventListener("DOMContentLoaded", (event) => {
         '12': 
         {
             heading: 'Sesión de fotos Girl',
-            title: 'Fotógrafo Nature Walker',
-            subtitle: 'Descubre la Belleza Natural',
-            mainText: 'Nos complace presentar nuestra colección de fotos de la naturaleza. Estas imágenes capturan la esencia y la belleza del mundo natural a través de la lente de nuestro talentoso fotógrafo. Abajo encontrarás el enlace de descarga para que puedas disfrutar de estas fotos en alta resolución. ¡Esperamos que estas imágenes te inspiren y te acerquen un poco más a la naturaleza!',
+            title: 'Celebrando la Amistad en la Universidad',
+            //subtitle: 'Descubre la Belleza Natural',
+            subtitle: '¡Gracias a nuestras maravillosas amigas por brindarnos la oportunidad de capturar su alegría y camaradería en la universidad! Nos sentimos honrados de haber podido inmortalizar estos momentos especiales. Abajo te dejamos el enlace de descarga para que puedas guardar estos recuerdos siempre contigo. ¡Esperamos que disfrutes de cada imagen tanto como nosotros disfrutamos capturándolas para ustedes!',
             downloadButton: 'Descargar',
             dimensions: '4000x5000',
-            format: 'PNG',
+            format: 'JPG',
             considerations: 'Si compartes estas fotos en redes sociales, no olvides etiquetarnos para que otros puedan descubrir nuestra obra. Encuéntranos en Instagram como nature_photos y en YouTube como Nature Walker. ¡Gracias por tu apoyo!',
             socialMedia: 'Redes sociales'
         },
         '13': 
         {
-            heading: 'Sesión de fotos Girl motociclista',
-            title: 'Ilucionista Magician Walker',
-            subtitle: 'Explora Nuestro Mundo Visual',
-            mainText: '¡Gracias por escogernos para capturar tus momentos especiales! Nos alegra saber que confías en nosotros para inmortalizar tus recuerdos. Estamos seguros de que las fotos que hemos tomado te traerán alegría y te permitirán revivir esos momentos una y otra vez. Abajo te dejamos el enlace de descarga para que puedas guardar estos recuerdos contigo siempre. ¡Esperamos que disfrutes de cada imagen tanto como nosotros disfrutamos capturándolas para ti!',
+            heading: 'Sesión de fotos Motociclista',
+            title: 'Aventura en Dos Ruedas',
+            //subtitle: 'Explora Nuestro Mundo Visual',
+            subtitle: '¡Gracias a nuestro amigo por brindarnos la oportunidad de capturar su pasión por las motocicletas! Nos sentimos honrados de haber podido inmortalizar estos momentos únicos y llenos de adrenalina. Abajo te dejamos el enlace de descarga para que puedas guardar estos recuerdos siempre contigo. ¡Esperamos que disfrutes de cada imagen tanto como nosotros disfrutamos capturándolas para ti!',
             downloadButton: 'Download',
             dimensions: '3000x4000',
             format: 'JPG',
@@ -554,21 +615,21 @@ document.addEventListener("DOMContentLoaded", (event) => {
         '14': 
         {
             heading: 'Sesión de fotos Luces',
-            title: 'Fotógrafo Nature Walker',
-            subtitle: 'Descubre la Belleza Natural',
-            mainText: 'Nos complace presentar nuestra colección de fotos de la naturaleza. Estas imágenes capturan la esencia y la belleza del mundo natural a través de la lente de nuestro talentoso fotógrafo. Abajo encontrarás el enlace de descarga para que puedas disfrutar de estas fotos en alta resolución. ¡Esperamos que estas imágenes te inspiren y te acerquen un poco más a la naturaleza!',
+            title: 'Luz y Color en lo Desconocido',
+            //subtitle: 'Descubre la Belleza Natural',
+            subtitle: 'Agradecemos a quienes nos permitieron capturar la magia de las luces LED en escenarios desconocidos. Estamos emocionados de compartir estos momentos llenos de color y brillo contigo. Abajo te dejamos el enlace de descarga para que puedas conservar estas imágenes y revivir su belleza cuando lo desees. ¡Esperamos que disfrutes cada detalle tanto como nosotros disfrutamos capturándolos para ti!',
             downloadButton: 'Descargar',
             dimensions: '4000x5000',
-            format: 'PNG',
+            format: 'JPG',
             considerations: 'Si compartes estas fotos en redes sociales, no olvides etiquetarnos para que otros puedan descubrir nuestra obra. Encuéntranos en Instagram como nature_photos y en YouTube como Nature Walker. ¡Gracias por tu apoyo!',
             socialMedia: 'Redes sociales'
         },
         '15': 
         {
             heading: 'Sesión de fotos Luces',
-            title: 'Ilucionista Magician Walker',
-            subtitle: 'Explora Nuestro Mundo Visual',
-            mainText: '¡Gracias por escogernos para capturar tus momentos especiales! Nos alegra saber que confías en nosotros para inmortalizar tus recuerdos. Estamos seguros de que las fotos que hemos tomado te traerán alegría y te permitirán revivir esos momentos una y otra vez. Abajo te dejamos el enlace de descarga para que puedas guardar estos recuerdos contigo siempre. ¡Esperamos que disfrutes de cada imagen tanto como nosotros disfrutamos capturándolas para ti!',
+            title: 'Luz y Color en lo Desconocido',
+            //subtitle: 'Explora Nuestro Mundo Visual',
+            subtitle: 'Agradecemos a quienes nos permitieron capturar la magia de las luces LED en escenarios desconocidos. Estamos emocionados de compartir estos momentos llenos de color y brillo contigo. Abajo te dejamos el enlace de descarga para que puedas conservar estas imágenes y revivir su belleza cuando lo desees. ¡Esperamos que disfrutes cada detalle tanto como nosotros disfrutamos capturándolos para ti!',
             downloadButton: 'Download',
             dimensions: '3000x4000',
             format: 'JPG',
@@ -578,21 +639,21 @@ document.addEventListener("DOMContentLoaded", (event) => {
         '16': 
         {
             heading: 'Sesión de fotos San Valentin',
-            title: 'Fotógrafo Nature Walker',
-            subtitle: 'Descubre la Belleza Natural',
-            mainText: 'Nos complace presentar nuestra colección de fotos de la naturaleza. Estas imágenes capturan la esencia y la belleza del mundo natural a través de la lente de nuestro talentoso fotógrafo. Abajo encontrarás el enlace de descarga para que puedas disfrutar de estas fotos en alta resolución. ¡Esperamos que estas imágenes te inspiren y te acerquen un poco más a la naturaleza!',
+            title: 'Amor Capturado: Sesión de San Valentín',
+            //subtitle: 'Descubre la Belleza Natural',
+            subtitle: 'Gracias por elegirnos para capturar su amor en esta sesión especial de San Valentín. Nos alegra haber sido testigos de momentos tan hermosos entre ustedes. Estamos seguros de que estas fotos llenas de amor les traerán alegría y les permitirán revivir esos momentos una y otra vez. Abajo les dejamos el enlace de descarga para que puedan conservar estos recuerdos para siempre. ¡Esperamos que disfruten cada imagen tanto como nosotros disfrutamos capturándolas para ustedes!',
             downloadButton: 'Descargar',
             dimensions: '4000x5000',
-            format: 'PNG',
+            format: 'JPG',
             considerations: 'Si compartes estas fotos en redes sociales, no olvides etiquetarnos para que otros puedan descubrir nuestra obra. Encuéntranos en Instagram como nature_photos y en YouTube como Nature Walker. ¡Gracias por tu apoyo!',
             socialMedia: 'Redes sociales'
         },
         '17': 
         {
             heading: 'Fotos Guananjuato',
-            title: 'Ilucionista Magician Walker',
-            subtitle: 'Explora Nuestro Mundo Visual',
-            mainText: '¡Gracias por escogernos para capturar tus momentos especiales! Nos alegra saber que confías en nosotros para inmortalizar tus recuerdos. Estamos seguros de que las fotos que hemos tomado te traerán alegría y te permitirán revivir esos momentos una y otra vez. Abajo te dejamos el enlace de descarga para que puedas guardar estos recuerdos contigo siempre. ¡Esperamos que disfrutes de cada imagen tanto como nosotros disfrutamos capturándolas para ti!',
+            title: 'Descubre la Belleza Natural de Guanajuato',
+            //subtitle: 'Explora Nuestro Mundo Visual',
+            subtitle: '¡Bienvenido a nuestra colección de fotos que capturan la majestuosidad natural de Guanajuato! Desde sus paisajes pintorescos hasta sus monumentos históricos, estas imágenes te transportarán a los rincones más hermosos de esta ciudad mexicana. Permítenos llevarte en un viaje visual a través de Guanajuato y descubre su encanto único a través de nuestras lentes. No dudes en explorar y descargar estas imágenes para llevar un pedacito de Guanajuato contigo donde quiera que vayas.',
             downloadButton: 'Download',
             dimensions: '3000x4000',
             format: 'JPG',
@@ -602,24 +663,24 @@ document.addEventListener("DOMContentLoaded", (event) => {
         '18': 
         {
             heading: 'Fotos Tepoztlán',
-            title: 'Fotógrafo Nature Walker',
-            subtitle: 'Descubre la Belleza Natural',
-            mainText: 'Nos complace presentar nuestra colección de fotos de la naturaleza. Estas imágenes capturan la esencia y la belleza del mundo natural a través de la lente de nuestro talentoso fotógrafo. Abajo encontrarás el enlace de descarga para que puedas disfrutar de estas fotos en alta resolución. ¡Esperamos que estas imágenes te inspiren y te acerquen un poco más a la naturaleza!',
+            title: 'Explora la Magia de Tepoztlán a Través de Nuestros Ojos',
+            //subtitle: 'Descubre la Belleza Natural',
+            subtitle: '¡Bienvenido a nuestra colección de fotos que capturan la esencia mística de Tepoztlán! Sumérgete en la belleza de este pueblo mágico a través de nuestras imágenes, donde cada rincón cuenta una historia única. Desde sus montañas imponentes hasta sus coloridos mercados y tranquilas calles empedradas, estas fotos te invitan a descubrir la magia de Tepoztlán desde cualquier lugar del mundo. Disfruta de un viaje visual que te transportará directamente a este paraíso terrenal y te dejará con ganas de explorar más.',
             downloadButton: 'Descargar',
             dimensions: '4000x5000',
-            format: 'PNG',
+            format: 'JPG',
             considerations: 'Si compartes estas fotos en redes sociales, no olvides etiquetarnos para que otros puedan descubrir nuestra obra. Encuéntranos en Instagram como nature_photos y en YouTube como Nature Walker. ¡Gracias por tu apoyo!',
             socialMedia: 'Redes sociales'
         },
         '19': 
         {
             heading: 'Fotos Zacatlán',
-            title: 'Fotógrafo Nature Walker',
-            subtitle: 'Descubre la Belleza Natural',
-            mainText: 'Nos complace presentar nuestra colección de fotos de la naturaleza. Estas imágenes capturan la esencia y la belleza del mundo natural a través de la lente de nuestro talentoso fotógrafo. Abajo encontrarás el enlace de descarga para que puedas disfrutar de estas fotos en alta resolución. ¡Esperamos que estas imágenes te inspiren y te acerquen un poco más a la naturaleza!',
+            title: 'Descubre la Belleza de Zacatlán a Través de Nuestras Fotos',
+            //subtitle: 'Descubre la Belleza Natural',
+            subtitle: 'Bienvenido a nuestra galería de fotos que capturan la esencia única de Zacatlán. Desde sus impresionantes paisajes montañosos hasta sus pintorescas calles y la calidez de su gente, cada imagen cuenta una historia de tradición y belleza natural. Explora con nosotros los rincones más encantadores de Zacatlán, donde cada foto te invita a sumergirte en la tranquilidad y la serenidad de este pueblo mágico. Esperamos que estas imágenes te inspiren a planear tu próxima aventura en Zacatlán y a disfrutar de su riqueza cultural y natural.',
             downloadButton: 'Descargar',
             dimensions: '4000x5000',
-            format: 'PNG',
+            format: 'JPG',
             considerations: 'Si compartes estas fotos en redes sociales, no olvides etiquetarnos para que otros puedan descubrir nuestra obra. Encuéntranos en Instagram como nature_photos y en YouTube como Nature Walker. ¡Gracias por tu apoyo!',
             socialMedia: 'Redes sociales'
         }
@@ -648,6 +709,10 @@ document.addEventListener("DOMContentLoaded", (event) => {
     document.getElementById('social-media-title').innerText = selectedTexts.socialMedia;
 });
 
+
+
+
+
 //Videos-details
 
 const videos = {
@@ -658,7 +723,7 @@ const videos = {
     '5': "https://www.youtube.com/embed/yyuhfMElShU?autoplay=1&mute=1&loop=1&playlist=yyuhfMElShU",
     '6': "https://www.youtube.com/embed/cbaL_5SPSy4?autoplay=1&mute=1&loop=1&playlist=cbaL_5SPSy4",
     '7': "https://www.youtube.com/embed/Zl-_ebq_LWg?autoplay=1&mute=1&loop=1&playlist=Zl-_ebq_LWg",
-    '8': "https://www.youtube.com/embed/azDqH8FxG64?autoplay=1&mute=1&loop=1&playlist=azDqH8FxG64",
+    '8': "https://www.youtube.com/embed/azDqH8FxG64?autoplay=1&mute=1&loop=1&playlist=azDqH8FxG64"
     // Agrega más enlaces de videos según sea necesario
 };
 const textSets = 
@@ -798,3 +863,41 @@ document.addEventListener("DOMContentLoaded", (event) => {
     document.getElementById('considerations-text').innerText = selectedTexts.considerations;
     document.getElementById('social-media-title').innerText = selectedTexts.socialMedia;
 });
+
+//Videos
+document.addEventListener('DOMContentLoaded', function () {
+    // Obtenemos todos los enlaces "Ver más"
+    const links = [
+        { id: 'video9', newHref: 'videos.html' },
+        { id: 'video10', newHref: 'videos.html' },
+        { id: 'video11', newHref: 'videos.html' },
+        { id: 'video12', newHref: 'videos.html' },
+        { id: 'video13', newHref: 'videos.html' },
+        { id: 'video14', newHref: 'videos.html' },
+        { id: 'video15', newHref: 'videos.html' },
+        { id: 'video16', newHref: 'videos.html' }
+    ];
+
+    // Iteramos sobre los enlaces y actualizamos el href
+    links.forEach(link => {
+        const element = document.getElementById(link.id);
+        if (element) {
+            element.href = link.newHref;
+        }
+    });
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

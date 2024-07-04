@@ -507,8 +507,8 @@ figure.effect-ming:hover img { opacity: 0.4; }
 }
 
 .tm-about-icon-container {
-    width: 150px;
-    height: 150px;
+    width: 370px;
+    height: 350px;
     border: 1px solid #009999;
     display: flex;
     align-items: center;
@@ -600,6 +600,11 @@ select:not([multiple]) {
 .large-icon {
     font-size: 3em; /* Ajusta este valor según sea necesario */
     margin: 0 10px; /* Añade espacio entre los iconos */
+}
+
+.small-image {
+    width: 350px; /* Puedes ajustar el ancho según sea necesario */
+    height: auto; /* Mantiene la proporción de la imagen */
 }
 
 @media (max-width: 991px) {
