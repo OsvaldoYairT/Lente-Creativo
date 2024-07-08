@@ -607,6 +607,85 @@ select:not([multiple]) {
     height: auto; /* Mantiene la proporción de la imagen */
 }
 
+/*Comentarios de contecto*/
+.tm-comment-box {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    text-align: center;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.tm-comment-box p {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.tm-comment-author {
+    display: block;
+    font-size: 1rem;
+    color: #888;
+    margin-top: 10px;
+}
+
+.tm-social {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.tm-social li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.tm-social i {
+    font-size: 1.5rem;
+    color: #007bff;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #007bff;
+    border-radius: 50%;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 50px;
+    /* background-color: #ccc; */
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0); /* Fondo semitransparente */
+    border-radius: 50%; /* Hacer los iconos circulares */
+    width: 50px; /* Ancho del icono */
+    height: 50px; /* Altura del icono */
+}
+
+.carousel-control-prev-icon {
+    background-image: url('data:image/svg+xml;charset=utf8,%3Csvg xmlns%3D%22http://www.w3.org/2000/svg%22 fill%3D%22%23fff%22 viewBox%3D%220 0 8 8%22%3E%3Cpath d%3D%22M4.5 0l-4 4 4 4v-3h3v-2h-3v-3z%22/%3E%3C/svg%3E');
+}
+
+.carousel-control-next-icon {
+    background-image: url('data:image/svg+xml;charset=utf8,%3Csvg xmlns%3D%22http://www.w3.org/2000/svg%22 fill%3D%22%23fff%22 viewBox%3D%220 0 8 8%22%3E%3Cpath d%3D%22M3.5 0v3h-3v2h3v3l4-4-4-4z%22/%3E%3C/svg%3E');
+}
+
+
 @media (max-width: 991px) {
     .navbar-collapse {
         position: fixed;
@@ -679,5 +758,79 @@ select:not([multiple]) {
     .video-container {
         height: 800px;
         max-width: 80%; /* Ajusta el ancho al 80% */
+    }
+}
+
+/*Comentario*/
+/* Media Queries for Responsiveness */
+@media (max-width: 1200px) {
+    .tm-comment-box {
+        padding: 15px;
+    }
+
+    .tm-comment-box p {
+        font-size: 1.1rem;
+    }
+
+    .tm-comment-author {
+        font-size: 0.9rem;
+    }
+
+    .tm-social i {
+        font-size: 1.4rem;
+    }
+}
+
+@media (max-width: 992px) {
+    .tm-comment-box {
+        padding: 15px;
+    }
+
+    .tm-comment-box p {
+        font-size: 1rem;
+    }
+
+    .tm-comment-author {
+        font-size: 0.85rem;
+    }
+
+    .tm-social i {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .tm-comment-box {
+        padding: 10px;
+    }
+
+    .tm-comment-box p {
+        font-size: 0.95rem;
+    }
+
+    .tm-comment-author {
+        font-size: 0.8rem;
+    }
+
+    .tm-social i {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .tm-comment-box {
+        padding: 8px;
+    }
+
+    .tm-comment-box p {
+        font-size: 0.9rem;
+    }
+
+    .tm-comment-author {
+        font-size: 0.75rem;
+    }
+
+    .tm-social i {
+        font-size: 1.1rem;
     }
 }
