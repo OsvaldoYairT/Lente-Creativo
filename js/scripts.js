@@ -709,7 +709,212 @@ document.addEventListener("DOMContentLoaded", (event) => {
     document.getElementById('social-media-title').innerText = selectedTexts.socialMedia;
 });
 
-
+document.addEventListener("DOMContentLoaded", (event) => {
+    const urlParams = new URLSearchParams(window.location.search);
+    const setId = urlParams.get('set');
+    const textTags = 
+    {
+        '1': 
+        {
+            tag1: 'Magia ',
+            tag2: 'Ilusionismo ',
+            tag3: 'Trucos ',
+            tag4: 'Abracadabra ',
+            tag5: 'Cartas ',
+            tag6: 'Sombrero ',
+            tag7: 'Varita '
+        },
+        '2': 
+        {
+            tag1: 'Fiesta',
+            tag2: 'Quinceañera',
+            tag3: 'Baile',
+            tag4: 'Vestido',
+            tag5: 'Celebración',
+            tag6: 'Pastel',
+            tag7: 'Regalo'
+        },
+        '3': 
+        {
+            tag1: 'Elegante',
+            tag2: 'Traje',
+            tag3: 'Elegancia',
+            tag4: 'Formal',
+            tag5: 'Caballero',
+            tag6: 'Sofisticado',
+            tag7: 'Detalle'
+        },
+        '4': 
+        {
+            tag1: 'Sonrisa',
+            tag2: 'Elegancia',
+            tag3: 'Glamour',
+            tag4: 'Modelo',
+            tag5: 'Belleza',
+            tag6: 'Detalle',
+            tag7: 'Sofisticado'
+        },
+        '5': 
+        {
+            tag1: 'Sonrisa',
+            tag2: 'Elegancia',
+            tag3: 'Glamour',
+            tag4: 'Modelo',
+            tag5: 'Belleza',
+            tag6: 'Detalle',
+            tag7: 'Sofisticado'
+        },
+        '6': 
+        {
+            tag1: 'Amigos',
+            tag2: 'Compañerismo',
+            tag3: 'Diversión',
+            tag4: 'Aventura',
+            tag5: 'Confianza',
+            tag6: 'Recuerdos',
+            tag7: 'Apoyo'
+        },
+        '7': 
+        {
+            tag1: 'Elegante',
+            tag2: 'Traje',
+            tag3: 'Elegancia',
+            tag4: 'Formal',
+            tag5: 'Caballero',
+            tag6: 'Sofisticado',
+            tag7: 'Detalle'
+        },
+        '8': 
+        {
+            tag1: 'Bailarina',
+            tag2: 'Profesional',
+            tag3: 'Danza',
+            tag4: 'Coreografía',
+            tag5: 'Elegancia',
+            tag6: 'Expresión',
+            tag7: 'Movimiento'
+        },
+        '9': 
+        {
+            tag1: 'Elegante',
+            tag2: 'Traje',
+            tag3: 'Elegancia',
+            tag4: 'Formal',
+            tag5: 'Caballero',
+            tag6: 'Sofisticado',
+            tag7: 'Detalle'
+        },
+        '10': 
+        {
+            tag1: 'Elegante',
+            tag2: 'Traje',
+            tag3: 'Elegancia',
+            tag4: 'Formal',
+            tag5: 'Caballero',
+            tag6: 'Sofisticado',
+            tag7: 'Detalle'
+        },
+        '11': 
+        {
+            tag1: 'Sonrisa',
+            tag2: 'Elegancia',
+            tag3: 'Glamour',
+            tag4: 'Modelo',
+            tag5: 'Belleza',
+            tag6: 'Detalle',
+            tag7: 'Sofisticado'
+        },
+        '12': 
+        {
+            tag1: 'Sonrisa',
+            tag2: 'Elegancia',
+            tag3: 'Glamour',
+            tag4: 'Modelo',
+            tag5: 'Belleza',
+            tag6: 'Detalle',
+            tag7: 'Sofisticado'
+        },
+        '13': 
+        {
+            tag1: 'Hombre',
+            tag2: 'Motos',
+            tag3: 'Aventura',
+            tag4: 'Velocidad',
+            tag5: 'Emoción',
+            tag6: 'Libertad',
+            tag7: 'Adrenalina'
+        },
+        '14': 
+        {
+            tag1: 'Elegante',
+            tag2: 'Traje',
+            tag3: 'Elegancia',
+            tag4: 'Formal',
+            tag5: 'Caballero',
+            tag6: 'Sofisticado',
+            tag7: 'Detalle'
+        },
+        '15': 
+        {
+            tag1: 'Sonrisa',
+            tag2: 'Elegancia',
+            tag3: 'Glamour',
+            tag4: 'Modelo',
+            tag5: 'Belleza',
+            tag6: 'Detalle',
+            tag7: 'Sofisticado'
+        },
+        '16': 
+        {
+            tag1: 'Amor',
+            tag2: 'Romance',
+            tag3: 'Pareja',
+            tag4: 'Cariño',
+            tag5: 'Corazones',
+            tag6: 'Regalos',
+            tag7: 'Amistad'
+        },
+        '17': 
+        {
+            tag1: 'Callejones',
+            tag2: 'Arquitectura',
+            tag3: 'Colorido',
+            tag4: 'Historia',
+            tag5: 'Cultura',
+            tag6: 'Tradición',
+            tag7: 'Paisajes'
+        },
+        '18': 
+        {
+            tag1: 'Montañas',
+            tag2: 'Pueblos Mágicos',
+            tag3: 'Cultura',
+            tag4: 'Historia',
+            tag5: 'Mercados',
+            tag6: 'Tradición',
+            tag7: 'Naturaleza'
+        },
+        '19': 
+        {
+            tag1: 'Relojes',
+            tag2: 'Manzanas',
+            tag3: 'Cascadas',
+            tag4: 'Pueblos Mágicos',
+            tag5: 'Murales',
+            tag6: 'Paisajes',
+            tag7: 'Historia'
+        }
+    };
+    
+    const selectedTag = textTags[setId] || textTags['1'];
+    document.getElementById('tags1').innerText = selectedTag.tag1;
+    document.getElementById('tags2').innerText = selectedTag.tag2;
+    document.getElementById('tags3').innerText = selectedTag.tag3;
+    document.getElementById('tags4').innerText = selectedTag.tag4;
+    document.getElementById('tags5').innerText = selectedTag.tag5;
+    document.getElementById('tags6').innerText = selectedTag.tag6;
+    document.getElementById('tags7').innerText = selectedTag.tag7;
+});
 
 
 
@@ -830,7 +1035,6 @@ document.addEventListener("DOMContentLoaded", (event) => {
     const urlParams = new URLSearchParams(window.location.search);
     const setId = urlParams.get('vid');
     const videoSrc = videos[setId]; // Obtén el enlace del video
-    const selectedTexts = textSets[setId] || textSets['1'];
 
     if (videoSrc) {
         const videoGallery = document.getElementById("videoGallery");
@@ -853,15 +1057,125 @@ document.addEventListener("DOMContentLoaded", (event) => {
     } else {
         console.error('Video ID not found or invalid');
     }
-
-    document.getElementById('heading-s').innerText = selectedTexts.heading;
-    document.getElementById('subtitle').innerText = selectedTexts.subtitle;
-    document.getElementById('main-text').innerText = selectedTexts.mainText;
-    document.getElementById('download-button').innerText = selectedTexts.downloadButton;
-    document.getElementById('dimensions-text').innerText = selectedTexts.dimensions;
-    document.getElementById('format-text').innerText = selectedTexts.format;
-    document.getElementById('considerations-text').innerText = selectedTexts.considerations;
-    document.getElementById('social-media-title').innerText = selectedTexts.socialMedia;
+    const textVideos = 
+    {
+        '1': 
+        {
+            headings: 'Sesión de fotos en la Universidad',
+            titles: 'Este video captura la esencia de la amistad a través de una sesión de fotos única entre dos amigas. Desde risas contagiosas hasta momentos de complicidad, cada imagen cuenta la historia de una amistad verdadera y llena de aventuras.',
+            subtitles: '6:08',
+            tag1: 'Amigas',
+            tag2: 'Fotos',
+            tag3: 'Sonrisas',
+            tag4: 'Recuerdos',
+            tag5: 'Diversión',
+            tag6: 'Amistad',
+            tag7: 'Complicidad'
+        },
+        '2': 
+        {
+            headings: 'Sesión de fotos San Valentin',
+            titles: 'Sumérgete en la magia del amor con este video que captura la esencia de una pareja enamorada en su sesión fotográfica del Día de San Valentín. Cada imagen está impregnada de romance y ternura, capturando momentos que reflejan la conexión profunda entre dos corazones. Descubre cómo el amor se hace visible en cada gesto, sonrisa y mirada compartida en este día especial.',
+            subtitles: '2:11',
+            tag1: 'Amigas',
+            tag2: 'Fotos',
+            tag3: 'Sonrisas',
+            tag4: 'Recuerdos',
+            tag5: 'Diversión',
+            tag6: 'Amistad',
+            tag7: 'Complicidad'
+        },
+        '3': 
+        {
+            headings: 'Sesión de fotos de Navidad',
+            titles: '¡Celebra la magia de la Navidad con nosotros! Sumérgete en este encantador video que captura la alegría y el espíritu festivo de una pareja/amigos durante la temporada navideña. Desde risas junto al árbol decorado hasta momentos íntimos junto al fuego, cada imagen refleja la calidez y la felicidad de compartir este tiempo especial juntos. Descubre cómo cada instante brilla con amor, amistad y la magia única de la Navidad.',
+            subtitles: '5:45',
+            tag1: 'Amigas',
+            tag2: 'Fotos',
+            tag3: 'Sonrisas',
+            tag4: 'Recuerdos',
+            tag5: 'Navidad',
+            tag6: 'Amistad',
+            tag7: 'Festejo'
+        },
+        '4': 
+        {
+            headings: 'Sesión de fotos en la Universidad',
+            titles: 'Revive los mejores momentos con nuestros amigos universitarios en esta sesión de fotos llena de risas y recuerdos inolvidables. Capturamos la esencia de nuestra amistad en cada imagen, desde los días de estudio hasta las aventuras fuera del aula. Únete a nosotros mientras compartimos risas y crecemos juntos en este viaje universitario que nunca olvidaremos.',
+            subtitles: '4:07',
+            tag1: 'Amigas',
+            tag2: 'Fotos',
+            tag3: 'Sonrisas',
+            tag4: 'Recuerdos',
+            tag5: 'Diversión',
+            tag6: 'Amistad',
+            tag7: 'Complicidad'
+        },
+        '5': 
+        {
+            headings: 'Sesión de fotos de XV años',
+            titles: 'Sumérgete en la magia y la elegancia de esta sesión de fotos de XV años, donde cada imagen captura la belleza y la ilusión de esta etapa tan especial. Desde los vestidos deslumbrantes hasta los detalles sofisticados, cada momento refleja la celebración de una joven en su día más especial.',
+            subtitles: '9:55',
+            tag1: 'Fiesta',
+            tag2: 'Quinceañera',
+            tag3: 'Baile',
+            tag4: 'Vestido',
+            tag5: 'Celebración',
+            tag6: 'Pastel',
+            tag7: 'Regalo'
+        },
+        '6': 
+        {
+            headings: 'Sesión de fotos a desconocidos PT. 2',
+            titles: 'Explora la diversidad y la singularidad en esta sesión de fotos a desconocidos, donde cada retrato revela historias únicas y expresiones auténticas. Capturamos momentos espontáneos que celebran la belleza y la individualidad de cada persona.',
+            subtitles: '10:09',
+            tag1: 'Amigas',
+            tag2: 'Fotos',
+            tag3: 'Sonrisas',
+            tag4: 'Recuerdos',
+            tag5: 'Diversión',
+            tag6: 'Amistad',
+            tag7: 'Bailarinas'
+        },
+        '7': 
+        {
+            headings: 'Sesión de Fotos en Moto',
+            titles: 'Sumérgete en la adrenalina y la libertad con nuestra sesión de fotos en moto. Capturamos la emoción de cada aceleración y el estilo único de los motociclistas en acción. Cada fotografía resalta la pasión y la energía que define al modelo con las motos',
+            subtitles: '7:15',
+            tag1: 'Hombre',
+            tag2: 'Motos',
+            tag3: 'Aventura',
+            tag4: 'Velocidad',
+            tag5: 'Emoción',
+            tag6: 'Libertad',
+            tag7: 'Adrenalina'
+        },
+        '8': 
+        {
+            headings: 'Sesión de fotos a desconocidos',
+            titles: 'Explora la diversidad y la singularidad en esta sesión de fotos a desconocidos, donde cada retrato revela historias únicas y expresiones auténticas. Capturamos momentos espontáneos que celebran la belleza y la individualidad de cada persona.',
+            subtitles: '10:48',
+            tag1: 'Amigas',
+            tag2: 'Fotos',
+            tag3: 'Sonrisas',
+            tag4: 'Recuerdos',
+            tag5: 'Diversión',
+            tag6: 'Amistad',
+            tag7: 'Complicidad'
+        }
+    };
+    
+    const selectedVideos = textVideos[setId] || textVideos['1'];
+    document.getElementById('heading-s').innerText = selectedVideos.headings;
+    document.getElementById('titles').innerText = selectedVideos.titles;
+    document.getElementById('subtitles').innerText = selectedVideos.subtitles;
+    document.getElementById('tags1').innerText = selectedVideos.tag1;
+    document.getElementById('tags2').innerText = selectedVideos.tag2;
+    document.getElementById('tags3').innerText = selectedVideos.tag3;
+    document.getElementById('tags4').innerText = selectedVideos.tag4;
+    document.getElementById('tags5').innerText = selectedVideos.tag5;
+    document.getElementById('tags6').innerText = selectedVideos.tag6;
+    document.getElementById('tags7').innerText = selectedVideos.tag7;
 });
 
 //Videos
