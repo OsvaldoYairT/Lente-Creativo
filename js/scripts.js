@@ -101,7 +101,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
                     mainImage1.src = "img/paisajes/guanajuato/DSCN9889.jpg";
                     mainImage2.src = "img/paisajes/tepostlan/IMG_20220917_094821179.jpg";
                     mainImage3.src = 'img/paisajes/zacatlan/DSCN0041.jpg';
-                    mainImage4.src = 'img/logo-creative - copia.png';
+                    mainImage4.src = 'img/paisajes/real_chico/DSCN9713.jpg';
                     mainImage5.src = 'img/logo-creative - copia.png';
                     mainImage6.src = 'img/logo-creative - copia.png';
                     mainImage7.src = 'img/logo-creative - copia.png';
@@ -118,7 +118,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
                     paragraph1.textContent = 'Guanajuato';
                     paragraph2.textContent = 'Tepoztlán';
                     paragraph3.textContent = 'Zacatlán';
-                    paragraph4.textContent = 'Texto';
+                    paragraph4.textContent = 'Mineral del Chico';
                     paragraph5.textContent = 'Texto';
                     paragraph6.textContent = 'Texto';
                     paragraph7.textContent = 'Texto';
@@ -135,7 +135,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
                     page1.href="photo-details.html?set=17"
                     page2.href="photo-details.html?set=18"
                     page3.href="photo-details.html?set=19"
-                    page4.href="index.html"
+                    page4.href="photo-details.html?set=20"
                     page5.href="index.html"
                     page6.href="index.html"
                     page7.href="index.html"
@@ -452,6 +452,17 @@ document.addEventListener("DOMContentLoaded", (event) => {
                 "img/paisajes/zacatlan/DSCN9940.jpg",
                 "img/paisajes/zacatlan/DSCN9956.jpg"
                 // Agrega más rutas de imágenes según sea necesario
+            ],
+            '20': 
+            [
+                "img/paisajes/real_chico/DSCN9713.jpg",
+                "img/paisajes/real_chico/DSCN9718.jpg",
+                "img/paisajes/real_chico/DSCN9743.jpg",
+                "img/paisajes/real_chico/DSCN9744.jpg",
+                "img/paisajes/real_chico/DSCN9745.jpg",
+                "img/paisajes/real_chico/DSCN9799.jpg",
+                "img/paisajes/real_chico/DSCN9800.jpg",
+                "img/paisajes/real_chico/DSCN9810.jpg"
             ]
     };
     const textSets = 
@@ -465,7 +476,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
             downloadButton: 'Download',
             dimensions: '3000x4000',
             format: 'JPG',
-            considerations: 'Si compartes tus fotos en redes sociales, por favor etiquétanos para que más personas conozcan nuestro trabajo. Nos puedes encontrar en Instagram como mm12_photos y en YouTube como MM 1/2. ¡Gracias por tu apoyo!',
+            considerations: 'Si compartes tus fotos en redes sociales, por favor etiquétanos para que más personas conozcan nuestro trabajo. Nos puedes encontrar en Instagram como lente_creativoo y en YouTube como MM 1/2. ¡Gracias por tu apoyo!',
             socialMedia: 'Redes sociales'
         },
         '2': 
@@ -477,7 +488,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
             downloadButton: 'Descargar',
             dimensions: '4000x5000',
             format: 'JPG',
-            considerations: 'Si compartes estas fotos en redes sociales, no olvides etiquetarnos para que otros puedan descubrir nuestra obra. Encuéntranos en Instagram como nature_photos y en YouTube como Nature Walker. ¡Gracias por tu apoyo!',
+            considerations: 'Si compartes estas fotos en redes sociales, no olvides etiquetarnos para que otros puedan descubrir nuestra obra. Encuéntranos en Instagram como lente_creativoo y en YouTube como Nature Walker. ¡Gracias por tu apoyo!',
             socialMedia: 'Redes sociales'
         },
         '3': 
@@ -489,7 +500,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
             downloadButton: 'Download',
             dimensions: '3000x4000',
             format: 'JPG',
-            considerations: 'Si compartes tus fotos en redes sociales, por favor etiquétanos para que más personas conozcan nuestro trabajo. Nos puedes encontrar en Instagram como mm12_photos y en YouTube como MM 1/2. ¡Gracias por tu apoyo!',
+            considerations: 'Si compartes tus fotos en redes sociales, por favor etiquétanos para que más personas conozcan nuestro trabajo. Nos puedes encontrar en Instagram como lente_creativoo y en YouTube como MM 1/2. ¡Gracias por tu apoyo!',
             socialMedia: 'Redes sociales'
         },
         '4': 
@@ -501,7 +512,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
             downloadButton: 'Descargar',
             dimensions: '4000x5000',
             format: 'JPG',
-            considerations: 'Si compartes estas fotos en redes sociales, no olvides etiquetarnos para que otros puedan descubrir nuestra obra. Encuéntranos en Instagram como nature_photos y en YouTube como Nature Walker. ¡Gracias por tu apoyo!',
+            considerations: 'Si compartes estas fotos en redes sociales, no olvides etiquetarnos para que otros puedan descubrir nuestra obra. Encuéntranos en Instagram como lente_creativoo y en YouTube como Nature Walker. ¡Gracias por tu apoyo!',
             socialMedia: 'Redes sociales'
         },
         '5': 
@@ -513,7 +524,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
             downloadButton: 'Download',
             dimensions: '3000x4000',
             format: 'JPG',
-            considerations: 'Si compartes tus fotos en redes sociales, por favor etiquétanos para que más personas conozcan nuestro trabajo. Nos puedes encontrar en Instagram como mm12_photos y en YouTube como MM 1/2. ¡Gracias por tu apoyo!',
+            considerations: 'Si compartes tus fotos en redes sociales, por favor etiquétanos para que más personas conozcan nuestro trabajo. Nos puedes encontrar en Instagram como lente_creativoo y en YouTube como MM 1/2. ¡Gracias por tu apoyo!',
             socialMedia: 'Redes sociales'
         },
         '6': 
@@ -525,7 +536,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
             downloadButton: 'Descargar',
             dimensions: '4000x5000',
             format: 'JPG',
-            considerations: 'Si compartes estas fotos en redes sociales, no olvides etiquetarnos para que otros puedan descubrir nuestra obra. Encuéntranos en Instagram como nature_photos y en YouTube como Nature Walker. ¡Gracias por tu apoyo!',
+            considerations: 'Si compartes estas fotos en redes sociales, no olvides etiquetarnos para que otros puedan descubrir nuestra obra. Encuéntranos en Instagram como lente_creativoo y en YouTube como Nature Walker. ¡Gracias por tu apoyo!',
             socialMedia: 'Redes sociales'
         },
         '7': 
@@ -537,7 +548,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
             downloadButton: 'Download',
             dimensions: '3000x4000',
             format: 'JPG',
-            considerations: 'Si compartes tus fotos en redes sociales, por favor etiquétanos para que más personas conozcan nuestro trabajo. Nos puedes encontrar en Instagram como mm12_photos y en YouTube como MM 1/2. ¡Gracias por tu apoyo!',
+            considerations: 'Si compartes tus fotos en redes sociales, por favor etiquétanos para que más personas conozcan nuestro trabajo. Nos puedes encontrar en Instagram como lente_creativoo y en YouTube como MM 1/2. ¡Gracias por tu apoyo!',
             socialMedia: 'Redes sociales'
         },
         '8': 
@@ -549,7 +560,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
             downloadButton: 'Descargar',
             dimensions: '4000x5000',
             format: 'JPG',
-            considerations: 'Si compartes estas fotos en redes sociales, no olvides etiquetarnos para que otros puedan descubrir nuestra obra. Encuéntranos en Instagram como nature_photos y en YouTube como Nature Walker. ¡Gracias por tu apoyo!',
+            considerations: 'Si compartes estas fotos en redes sociales, no olvides etiquetarnos para que otros puedan descubrir nuestra obra. Encuéntranos en Instagram como lente_creativoo y en YouTube como Nature Walker. ¡Gracias por tu apoyo!',
             socialMedia: 'Redes sociales'
         },
         '9': 
@@ -561,7 +572,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
             downloadButton: 'Download',
             dimensions: '3000x4000',
             format: 'JPG',
-            considerations: 'Si compartes tus fotos en redes sociales, por favor etiquétanos para que más personas conozcan nuestro trabajo. Nos puedes encontrar en Instagram como mm12_photos y en YouTube como MM 1/2. ¡Gracias por tu apoyo!',
+            considerations: 'Si compartes tus fotos en redes sociales, por favor etiquétanos para que más personas conozcan nuestro trabajo. Nos puedes encontrar en Instagram como lente_creativoo y en YouTube como MM 1/2. ¡Gracias por tu apoyo!',
             socialMedia: 'Redes sociales'
         },
         '10': 
@@ -573,7 +584,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
             downloadButton: 'Descargar',
             dimensions: '4000x5000',
             format: 'JPG',
-            considerations: 'Si compartes estas fotos en redes sociales, no olvides etiquetarnos para que otros puedan descubrir nuestra obra. Encuéntranos en Instagram como nature_photos y en YouTube como Nature Walker. ¡Gracias por tu apoyo!',
+            considerations: 'Si compartes estas fotos en redes sociales, no olvides etiquetarnos para que otros puedan descubrir nuestra obra. Encuéntranos en Instagram como lente_creativoo y en YouTube como Nature Walker. ¡Gracias por tu apoyo!',
             socialMedia: 'Redes sociales'
         },
         '11': 
@@ -585,7 +596,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
             downloadButton: 'Download',
             dimensions: '3000x4000',
             format: 'JPG',
-            considerations: 'Si compartes tus fotos en redes sociales, por favor etiquétanos para que más personas conozcan nuestro trabajo. Nos puedes encontrar en Instagram como mm12_photos y en YouTube como MM 1/2. ¡Gracias por tu apoyo!',
+            considerations: 'Si compartes tus fotos en redes sociales, por favor etiquétanos para que más personas conozcan nuestro trabajo. Nos puedes encontrar en Instagram como lente_creativoo y en YouTube como MM 1/2. ¡Gracias por tu apoyo!',
             socialMedia: 'Redes sociales'
         },
         '12': 
@@ -597,7 +608,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
             downloadButton: 'Descargar',
             dimensions: '4000x5000',
             format: 'JPG',
-            considerations: 'Si compartes estas fotos en redes sociales, no olvides etiquetarnos para que otros puedan descubrir nuestra obra. Encuéntranos en Instagram como nature_photos y en YouTube como Nature Walker. ¡Gracias por tu apoyo!',
+            considerations: 'Si compartes estas fotos en redes sociales, no olvides etiquetarnos para que otros puedan descubrir nuestra obra. Encuéntranos en Instagram como lente_creativoo y en YouTube como Nature Walker. ¡Gracias por tu apoyo!',
             socialMedia: 'Redes sociales'
         },
         '13': 
@@ -609,7 +620,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
             downloadButton: 'Download',
             dimensions: '3000x4000',
             format: 'JPG',
-            considerations: 'Si compartes tus fotos en redes sociales, por favor etiquétanos para que más personas conozcan nuestro trabajo. Nos puedes encontrar en Instagram como mm12_photos y en YouTube como MM 1/2. ¡Gracias por tu apoyo!',
+            considerations: 'Si compartes tus fotos en redes sociales, por favor etiquétanos para que más personas conozcan nuestro trabajo. Nos puedes encontrar en Instagram como lente_creativoo y en YouTube como MM 1/2. ¡Gracias por tu apoyo!',
             socialMedia: 'Redes sociales'
         },
         '14': 
@@ -621,7 +632,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
             downloadButton: 'Descargar',
             dimensions: '4000x5000',
             format: 'JPG',
-            considerations: 'Si compartes estas fotos en redes sociales, no olvides etiquetarnos para que otros puedan descubrir nuestra obra. Encuéntranos en Instagram como nature_photos y en YouTube como Nature Walker. ¡Gracias por tu apoyo!',
+            considerations: 'Si compartes estas fotos en redes sociales, no olvides etiquetarnos para que otros puedan descubrir nuestra obra. Encuéntranos en Instagram como lente_creativoo y en YouTube como Nature Walker. ¡Gracias por tu apoyo!',
             socialMedia: 'Redes sociales'
         },
         '15': 
@@ -633,7 +644,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
             downloadButton: 'Download',
             dimensions: '3000x4000',
             format: 'JPG',
-            considerations: 'Si compartes tus fotos en redes sociales, por favor etiquétanos para que más personas conozcan nuestro trabajo. Nos puedes encontrar en Instagram como mm12_photos y en YouTube como MM 1/2. ¡Gracias por tu apoyo!',
+            considerations: 'Si compartes tus fotos en redes sociales, por favor etiquétanos para que más personas conozcan nuestro trabajo. Nos puedes encontrar en Instagram como lente_creativoo y en YouTube como MM 1/2. ¡Gracias por tu apoyo!',
             socialMedia: 'Redes sociales'
         },
         '16': 
@@ -645,7 +656,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
             downloadButton: 'Descargar',
             dimensions: '4000x5000',
             format: 'JPG',
-            considerations: 'Si compartes estas fotos en redes sociales, no olvides etiquetarnos para que otros puedan descubrir nuestra obra. Encuéntranos en Instagram como nature_photos y en YouTube como Nature Walker. ¡Gracias por tu apoyo!',
+            considerations: 'Si compartes estas fotos en redes sociales, no olvides etiquetarnos para que otros puedan descubrir nuestra obra. Encuéntranos en Instagram como lente_creativoo y en YouTube como Nature Walker. ¡Gracias por tu apoyo!',
             socialMedia: 'Redes sociales'
         },
         '17': 
@@ -657,7 +668,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
             downloadButton: 'Download',
             dimensions: '3000x4000',
             format: 'JPG',
-            considerations: 'Si compartes tus fotos en redes sociales, por favor etiquétanos para que más personas conozcan nuestro trabajo. Nos puedes encontrar en Instagram como mm12_photos y en YouTube como MM 1/2. ¡Gracias por tu apoyo!',
+            considerations: 'Si compartes tus fotos en redes sociales, por favor etiquétanos para que más personas conozcan nuestro trabajo. Nos puedes encontrar en Instagram como lente_creativoo y en YouTube como MM 1/2. ¡Gracias por tu apoyo!',
             socialMedia: 'Redes sociales'
         },
         '18': 
@@ -669,7 +680,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
             downloadButton: 'Descargar',
             dimensions: '4000x5000',
             format: 'JPG',
-            considerations: 'Si compartes estas fotos en redes sociales, no olvides etiquetarnos para que otros puedan descubrir nuestra obra. Encuéntranos en Instagram como nature_photos y en YouTube como Nature Walker. ¡Gracias por tu apoyo!',
+            considerations: 'Si compartes estas fotos en redes sociales, no olvides etiquetarnos para que otros puedan descubrir nuestra obra. Encuéntranos en Instagram como lente_creativoo y en YouTube como Nature Walker. ¡Gracias por tu apoyo!',
             socialMedia: 'Redes sociales'
         },
         '19': 
@@ -681,7 +692,19 @@ document.addEventListener("DOMContentLoaded", (event) => {
             downloadButton: 'Descargar',
             dimensions: '4000x5000',
             format: 'JPG',
-            considerations: 'Si compartes estas fotos en redes sociales, no olvides etiquetarnos para que otros puedan descubrir nuestra obra. Encuéntranos en Instagram como nature_photos y en YouTube como Nature Walker. ¡Gracias por tu apoyo!',
+            considerations: 'Si compartes estas fotos en redes sociales, no olvides etiquetarnos para que otros puedan descubrir nuestra obra. Encuéntranos en Instagram como lente_creativoo y en YouTube como Nature Walker. ¡Gracias por tu apoyo!',
+            socialMedia: 'Redes sociales'
+        },
+        '20': 
+        {
+            heading: 'Fotos Mineral del Chico',
+            title: 'Descubre la Belleza de Mineral del Chico a Través de Nuestras Fotos',
+            //subtitle: 'Descubre la Belleza Natural',
+            subtitle: 'Bienvenido a nuestra galería dedicada a la belleza natural de Mineral del Chico. Cada imagen captura la magia de sus paisajes montañosos, sus bosques llenos de vida y las impresionantes vistas panorámicas que ofrecen sus miradores. Desde las alturas podrás apreciar un pueblo mágico rodeado de naturaleza, envuelto en neblina, luz y tranquilidad. Explora con nosotros estos espacios donde la aventura y la serenidad se unen, y déjate inspirar por la grandeza de Mineral del Chico. Quizás tu próxima escapada esté más cerca de lo que imaginas.',
+            downloadButton: 'Descargar',
+            dimensions: '4000x5000',
+            format: 'JPG',
+            considerations: 'Si compartes estas fotos en redes sociales, no olvides etiquetarnos para que otros puedan descubrir nuestra obra. Encuéntranos en Instagram como lente_creativoo y en YouTube como Nature Walker. ¡Gracias por tu apoyo!',
             socialMedia: 'Redes sociales'
         }
     };
@@ -903,6 +926,16 @@ document.addEventListener("DOMContentLoaded", (event) => {
             tag5: 'Murales',
             tag6: 'Paisajes',
             tag7: 'Historia'
+        },
+        '20': 
+        {
+            tag1: 'Bosque',
+            tag2: 'Naturaleza',
+            tag3: 'Neblina',
+            tag4: 'Pueblos Mágicos',
+            tag5: 'Mirador',
+            tag6: 'Paisajes',
+            tag7: 'Historia'
         }
     };
     
@@ -942,7 +975,7 @@ const textSets =
         downloadButton: 'Download',
         dimensions: '3000x4000',
         format: 'JPG',
-        considerations: 'Si compartes tus fotos en redes sociales, por favor etiquétanos para que más personas conozcan nuestro trabajo. Nos puedes encontrar en Instagram como mm12_photos y en YouTube como MM 1/2. ¡Gracias por tu apoyo!',
+        considerations: 'Si compartes tus fotos en redes sociales, por favor etiquétanos para que más personas conozcan nuestro trabajo. Nos puedes encontrar en Instagram como lente_creativoo y en YouTube como MM 1/2. ¡Gracias por tu apoyo!',
         socialMedia: 'Redes sociales'
     },
     '2': 
@@ -954,7 +987,7 @@ const textSets =
         downloadButton: 'Descargar',
         dimensions: '4000x5000',
         format: 'PNG',
-        considerations: 'Si compartes estas fotos en redes sociales, no olvides etiquetarnos para que otros puedan descubrir nuestra obra. Encuéntranos en Instagram como nature_photos y en YouTube como Nature Walker. ¡Gracias por tu apoyo!',
+        considerations: 'Si compartes estas fotos en redes sociales, no olvides etiquetarnos para que otros puedan descubrir nuestra obra. Encuéntranos en Instagram como lente_creativoo y en YouTube como Nature Walker. ¡Gracias por tu apoyo!',
         socialMedia: 'Redes sociales'
     },
     '3': 
@@ -966,7 +999,7 @@ const textSets =
         downloadButton: 'Download',
         dimensions: '3000x4000',
         format: 'JPG',
-        considerations: 'Si compartes tus fotos en redes sociales, por favor etiquétanos para que más personas conozcan nuestro trabajo. Nos puedes encontrar en Instagram como mm12_photos y en YouTube como MM 1/2. ¡Gracias por tu apoyo!',
+        considerations: 'Si compartes tus fotos en redes sociales, por favor etiquétanos para que más personas conozcan nuestro trabajo. Nos puedes encontrar en Instagram como lente_creativoo y en YouTube como MM 1/2. ¡Gracias por tu apoyo!',
         socialMedia: 'Redes sociales'
     },
     '4': 
@@ -978,7 +1011,7 @@ const textSets =
         downloadButton: 'Descargar',
         dimensions: '4000x5000',
         format: 'PNG',
-        considerations: 'Si compartes estas fotos en redes sociales, no olvides etiquetarnos para que otros puedan descubrir nuestra obra. Encuéntranos en Instagram como nature_photos y en YouTube como Nature Walker. ¡Gracias por tu apoyo!',
+        considerations: 'Si compartes estas fotos en redes sociales, no olvides etiquetarnos para que otros puedan descubrir nuestra obra. Encuéntranos en Instagram como lente_creativoo y en YouTube como Nature Walker. ¡Gracias por tu apoyo!',
         socialMedia: 'Redes sociales'
     },
     '5': 
@@ -990,7 +1023,7 @@ const textSets =
         downloadButton: 'Download',
         dimensions: '3000x4000',
         format: 'JPG',
-        considerations: 'Si compartes tus fotos en redes sociales, por favor etiquétanos para que más personas conozcan nuestro trabajo. Nos puedes encontrar en Instagram como mm12_photos y en YouTube como MM 1/2. ¡Gracias por tu apoyo!',
+        considerations: 'Si compartes tus fotos en redes sociales, por favor etiquétanos para que más personas conozcan nuestro trabajo. Nos puedes encontrar en Instagram como lente_creativoo y en YouTube como MM 1/2. ¡Gracias por tu apoyo!',
         socialMedia: 'Redes sociales'
     },
     '6': 
@@ -1002,7 +1035,7 @@ const textSets =
         downloadButton: 'Descargar',
         dimensions: '4000x5000',
         format: 'PNG',
-        considerations: 'Si compartes estas fotos en redes sociales, no olvides etiquetarnos para que otros puedan descubrir nuestra obra. Encuéntranos en Instagram como nature_photos y en YouTube como Nature Walker. ¡Gracias por tu apoyo!',
+        considerations: 'Si compartes estas fotos en redes sociales, no olvides etiquetarnos para que otros puedan descubrir nuestra obra. Encuéntranos en Instagram como lente_creativoo y en YouTube como Nature Walker. ¡Gracias por tu apoyo!',
         socialMedia: 'Redes sociales'
     },
     '7': 
@@ -1014,7 +1047,7 @@ const textSets =
         downloadButton: 'Download',
         dimensions: '3000x4000',
         format: 'JPG',
-        considerations: 'Si compartes tus fotos en redes sociales, por favor etiquétanos para que más personas conozcan nuestro trabajo. Nos puedes encontrar en Instagram como mm12_photos y en YouTube como MM 1/2. ¡Gracias por tu apoyo!',
+        considerations: 'Si compartes tus fotos en redes sociales, por favor etiquétanos para que más personas conozcan nuestro trabajo. Nos puedes encontrar en Instagram como lente_creativoo y en YouTube como MM 1/2. ¡Gracias por tu apoyo!',
         socialMedia: 'Redes sociales'
     },
     '8': 
@@ -1026,7 +1059,7 @@ const textSets =
         downloadButton: 'Descargar',
         dimensions: '4000x5000',
         format: 'PNG',
-        considerations: 'Si compartes estas fotos en redes sociales, no olvides etiquetarnos para que otros puedan descubrir nuestra obra. Encuéntranos en Instagram como nature_photos y en YouTube como Nature Walker. ¡Gracias por tu apoyo!',
+        considerations: 'Si compartes estas fotos en redes sociales, no olvides etiquetarnos para que otros puedan descubrir nuestra obra. Encuéntranos en Instagram como lente_creativoo y en YouTube como Nature Walker. ¡Gracias por tu apoyo!',
         socialMedia: 'Redes sociales'
     }
 };
